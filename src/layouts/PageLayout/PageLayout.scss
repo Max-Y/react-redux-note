@@ -1,0 +1,49 @@
+footer {
+  background: #000;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 20px;
+
+  .tab-nav__container {
+    width: 25%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-top: 12px;
+
+    .tab-nav, .tab-nav__active {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: table;
+      table-layout: fixed;
+      text-decoration: none;
+
+      i {
+        display: table-cell;
+        vertical-align: middle;    
+        text-align: center;
+        font-size: 28px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.container__main {
+    height: calc(100% - 50px);
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.page-layout__viewport {
+  padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
